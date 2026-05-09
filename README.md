@@ -106,4 +106,7 @@ Relationships:
 ---------------------------------------------------------------
 
 Comprehensive Review:
+Views:
 <img width="1230" height="128" alt="image" src="https://github.com/user-attachments/assets/7420726e-f38d-421c-bc2a-843110f44165" />
+AVG, MAX, Where __ Like %%, Order by DESC, and a Window function with rank and over: 
+<img width="528" height="367" alt="image" src="https://github.com/user-attachments/assets/b5c05373-18d4-4fe2-b79d-b3b72985bc42" />
