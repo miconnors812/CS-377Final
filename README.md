@@ -97,6 +97,17 @@ Relationships:
 
 # Comprehensive Review:
 ### Procedures:
+###### The Main Procedure: update_battle
+This is the procedure that will simulate a pokemon battle between two trainers. All you need to do is supply a battle id and it will progress that battle by one turn where each trainer's pokemon can attack the other. First, it calculates the damage that each pokemon will deal to each other. This is decided by the pokemon's own attack and special attack stat, as well as the type effectiveness between the pokemon's types. After subtracting that damage from each pokemon's health digit, a winner will be decided if one of them has reached lower than 0 and thus has lost. In the case of a tie, the pokemon with a higher speed stat who can move first will win. After this has been done, the entry with the supplied id in the battling table will be updated, an entry will be added to battle_actions to act as a record for this moment in time, and the winning trainer will be added to the champions table if one is decided on this turn.
+<img width="300" height="737" alt="image" src="https://github.com/user-attachments/assets/aebc3746-f062-4a0e-b35f-153556227bd1" />
+<img width="387" height="926" alt="image" src="https://github.com/user-attachments/assets/89c6508e-3652-45b6-b202-a481892b8cb4" />
+<img width="366" height="648" alt="image" src="https://github.com/user-attachments/assets/3de3b8f3-b432-49e8-a2cb-067513f6b9f0" />
+<img width="263" height="600" alt="image" src="https://github.com/user-attachments/assets/26ec1eb9-614c-4e60-bc05-c9b61d809ff9" />
+
+
+
+
+
 pokemon_trade - swap out a trainer's partner pokemon for a different one using the UPDATE function.
 <img width="457" height="303" alt="image" src="https://github.com/user-attachments/assets/3b7d6c11-e264-4ccb-9278-3feaf5a2e5a6" />
 
