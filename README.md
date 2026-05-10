@@ -104,7 +104,7 @@ Relationships:
 # Comprehensive Review:
 ### Procedures:
 ###### The Main Procedure: update_battle
-This is the procedure that will simulate a pokemon battle between two trainers. All you need to do is supply a battle id and it will progress that battle by one turn where each trainer's pokemon can attack the other. First, it calculates the damage that each pokemon will deal to each other. This is decided by the pokemon's own attack and special attack stat, as well as the type effectiveness between the pokemon's types. After subtracting that damage from each pokemon's health digit, a winner will be decided if one of them has reached lower than 0 and thus has lost. In the case of a tie, the pokemon with a higher speed stat who can move first will win. After this has been done, the entry with the supplied id in the battling table will be updated, an entry will be added to battle_actions to act as a record for this moment in time, and the winning trainer will be added to the champions table if one is decided on this turn.
+This is the procedure that will simulate a pokemon battle between two trainers. All you need to do is supply a battle id and it will progress that battle by one turn where each trainer's pokemon can attack the other. First, it calculates the damage that each pokemon will deal to each other. This is decided by the pokemon's own attack and special attack stat, as well as the type effectiveness between the pokemon's types. After subtracting that damage from each pokemon's health digit, a winner will be decided if one of them has reached lower than 0 and thus has lost. In the case of a tie, the pokemon with a higher speed stat who can move first will win. After this has been done, the entry with the supplied id in the battling table will be updated, an entry will be INSERTed to battle_actions to act as a record for this moment in time, and the winning trainer will be added to the champions table if one is decided on this turn.
 <img width="483" height="912" alt="image" src="https://github.com/user-attachments/assets/02435f5a-5aa7-4e14-adba-e3d63a7989f9" />
 <img width="501" height="932" alt="image" src="https://github.com/user-attachments/assets/f3857f8f-416a-4975-afef-d99f57adf62a" />
 <img width="586" height="942" alt="image" src="https://github.com/user-attachments/assets/4519e58f-4407-4c14-916f-e7ed89c6422d" />
@@ -128,13 +128,13 @@ AVG, MAX, Where __ Like %%, Order by DESC, and a Window function with rank and o
 <img width="528" height="367" alt="image" src="https://github.com/user-attachments/assets/b5c05373-18d4-4fe2-b79d-b3b72985bc42" />
 
 ## New Features
-Declare
+Declare - this can be used in a procedure to initialize variables that will be used commonly throughout the procedure to reduce redundant code.
 <img width="328" height="517" alt="image" src="https://github.com/user-attachments/assets/5e6c40a0-0123-47b6-af7a-cd5002f25ffc" />
 
-Greatest
+Greatest - This is similar to coalesce, in that it compares two values. Instead of choosing the NOT NULL value like coalesce, the one with the greatest value is chosen instead.
 <img width="477" height="77" alt="image" src="https://github.com/user-attachments/assets/4e7d68a0-1938-4306-9b37-857d169d49bc" />
 
-Composite Primary Key
+Composite Primary Key - This type of primary key requires both values to have a unique combination of their values. This is useful for defining relationships between two values without having any duplicates.
 <img width="430" height="36" alt="image" src="https://github.com/user-attachments/assets/9e267c10-4e71-4bd4-8b7c-b101d13ae498" />
 
 
