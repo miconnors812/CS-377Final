@@ -123,9 +123,18 @@ pokemon_trade - swap out a trainer's partner pokemon for a different one using t
 partner_info - displays a trainer's name and the information regarding their specific partner pokemon.
 <img width="1067" height="135" alt="image" src="https://github.com/user-attachments/assets/6613e069-b66d-4378-9aac-ecf460f935fe" />
 
-### General Queries:
-AVG, MAX, Where __ Like %%, Order by DESC, and a Window function with rank and over: 
-<img width="528" height="367" alt="image" src="https://github.com/user-attachments/assets/b5c05373-18d4-4fe2-b79d-b3b72985bc42" />
+### Other General Queries Not Already Mentioned:
+AVG, MAX, Order by DESC, and a Window function with rank and over: 
+<img width="481" height="235" alt="image" src="https://github.com/user-attachments/assets/defc6a88-f710-438a-8aff-0c105b195691" />
+
+
+CONCAT_WS:
+<img width="1310" height="92" alt="image" src="https://github.com/user-attachments/assets/6bc64270-8463-4a4a-9b2b-2ed196bb6589" />
+
+WHERE _ LIKE %%, POSITION:
+<img width="352" height="75" alt="image" src="https://github.com/user-attachments/assets/fff5a4f6-4e13-45c4-8060-8949b4381669" />
+
+
 
 ## New Features
 Declare - this can be used in a procedure to initialize variables that will be used commonly throughout the procedure to reduce redundant code.
