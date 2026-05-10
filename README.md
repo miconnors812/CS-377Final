@@ -65,16 +65,6 @@ Represents an active or recorded battle between two trainers.
 | p2_currhp  | DEC(5,2)    | Current HP of trainer 2's Pokémon |
 | turn_order | INT         | Indicates whose turn it is        |
 
-## bracket
-
-Stores tournament bracket information for 4 trainers.
-| Column  | Type        | Description            |
-| ------- | ----------- | ---------------------- |
-| br_id   | SERIAL (PK) | Bracket ID             |
-| t_id1–4 | INT (FK)    | Participating trainers |
-| winner1 | INT         | Winner of match 1      |
-| winner2 | INT         | Winner of match 2      |
-
 ## champions
 
 Tracks final winners of tournament brackets.
