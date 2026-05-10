@@ -55,35 +55,43 @@ Primary Key: (attacker_type, defender_type)
 ## battling
 
 Represents an active or recorded battle between two trainers.
-| Column     | Type        | Description                       |
-| ---------- | ----------- | --------------------------------- |
-| b_id       | SERIAL (PK) | Battle ID                         |
-| t_id1      | INT (FK)    | Trainer 1                         |
-| t_id2      | INT (FK)    | Trainer 2                         |
-| p1_currhp  | DEC(5,2)    | Current HP of trainer 1's Pokémon |
-| p2_currhp  | DEC(5,2)    | Current HP of trainer 2's Pokémon |
-| turn_order | INT         | Indicates whose turn it is        |
+| Column      | Type        | Description                          |
+| ----------- | ----------- | ------------------------------------ |
+| b_id        | SERIAL (PK) | Battle ID                            |
+| t_id1       | INT (FK)    | Trainer 1                            |
+| t_id2       | INT (FK)    | Trainer 2                            |
+| p1_currhp   | DEC(5,2)    | Current HP of trainer 1's Pokémon    |
+| p2_currhp   | DEC(5,2)    | Current HP of trainer 2's Pokémon    |
+| turn_number | INT         | Current turn number                  |
+| winner      | INT (FK)    | Winning trainer ID (NULL if ongoing) |
+
 
 ## champions
 
 Tracks final winners of tournament brackets.
-| Column | Type        | Description                 |
-| ------ | ----------- | --------------------------- |
-| c_id   | SERIAL (PK) | Champion record ID          |
-| w1_id  | INT         | Winner from bracket match 1 |
-| w2_id  | INT         | Winner from bracket match 2 |
+| Column | Type        | Description          |
+| ------ | ----------- | -------------------- |
+| c_id   | SERIAL (PK) | Champion record ID   |
+| w_id   | INT (FK)    | Winning trainer ID   |
+| b_id   | INT (FK)    | Associated battle ID |
+
 
 
 ## battle_actions
 
 Logs actions taken during battles.
-| Column      | Type        | Description    |
-| ----------- | ----------- | -------------- |
-| action_id   | SERIAL (PK) | Action ID      |
-| b_id        | INT (FK)    | Battle ID      |
-| turn_number | INT         | Turn number    |
-| actor       | INT         | Acting trainer |
-| damage      | DEC(5,2)    | Damage dealt   |
+| Column      | Type        | Description                        |
+| ----------- | ----------- | ---------------------------------- |
+| action_id   | SERIAL (PK) | Action ID                          |
+| b_id        | INT (FK)    | Battle ID                          |
+| turn_number | INT         | Turn number                        |
+| p1attack    | DEC(5,2)    | Damage dealt by trainer 1          |
+| p2attack    | DEC(5,2)    | Damage dealt by trainer 2          |
+| p1_currhp   | DEC(5,2)    | Pokemon 1 HP after damage          |
+| p2_currhp   | DEC(5,2)    | Pokemon 2 HP after damage          |
+| p1_maxhp    | DEC(5,2)    | Pokemon 1 max HP  |
+| p2_maxhp    | DEC(5,2)    | Pokemon 2 max HP  |
+
 
 Relationships: 
 - Each trainer has one partner Pokémon.
