@@ -119,3 +119,14 @@ partner_info - displays a trainer's name and the information regarding their spe
 AVG, MAX, Where __ Like %%, Order by DESC, and a Window function with rank and over: 
 <img width="528" height="367" alt="image" src="https://github.com/user-attachments/assets/b5c05373-18d4-4fe2-b79d-b3b72985bc42" />
 
+## New Features
+Declare
+<img width="328" height="517" alt="image" src="https://github.com/user-attachments/assets/5e6c40a0-0123-47b6-af7a-cd5002f25ffc" />
+
+Greatest
+<img width="477" height="77" alt="image" src="https://github.com/user-attachments/assets/4e7d68a0-1938-4306-9b37-857d169d49bc" />
+
+Composite Primary Key
+<img width="430" height="36" alt="image" src="https://github.com/user-attachments/assets/9e267c10-4e71-4bd4-8b7c-b101d13ae498" />
+
+
