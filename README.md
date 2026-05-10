@@ -105,8 +105,17 @@ Relationships:
 
 ---------------------------------------------------------------
 
-Comprehensive Review:
-Views:
-<img width="1230" height="128" alt="image" src="https://github.com/user-attachments/assets/7420726e-f38d-421c-bc2a-843110f44165" />
+# Comprehensive Review:
+### Procedures:
+pokemon_trade - swap out a trainer's partner pokemon for a different one using the UPDATE function.
+<img width="457" height="303" alt="image" src="https://github.com/user-attachments/assets/3b7d6c11-e264-4ccb-9278-3feaf5a2e5a6" />
+
+
+### Views:
+partner_info - displays a trainer's name and the information regarding their specific partner pokemon.
+<img width="1067" height="135" alt="image" src="https://github.com/user-attachments/assets/6613e069-b66d-4378-9aac-ecf460f935fe" />
+
+### General Queries:
 AVG, MAX, Where __ Like %%, Order by DESC, and a Window function with rank and over: 
 <img width="528" height="367" alt="image" src="https://github.com/user-attachments/assets/b5c05373-18d4-4fe2-b79d-b3b72985bc42" />
+
