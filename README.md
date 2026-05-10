@@ -99,6 +99,9 @@ Relationships:
 - Battle actions are tied to a specific battle.
 - Champions are determined from battle winners.
 
+## ERD
+<img width="875" height="880" alt="image" src="https://github.com/user-attachments/assets/b44b0134-1377-462a-aa09-385c2c3d48ec" />
+
 ---------------------------------------------------------------
 
 # Comprehensive Review:
