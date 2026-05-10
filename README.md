@@ -105,7 +105,8 @@ This is the procedure that will simulate a pokemon battle between two trainers. 
 <img width="263" height="600" alt="image" src="https://github.com/user-attachments/assets/26ec1eb9-614c-4e60-bc05-c9b61d809ff9" />
 
 
-
+surrender_battle - a trainer can give up mid battle to end it prematurely and declare the other trainer as a champion.
+<img width="532" height="492" alt="image" src="https://github.com/user-attachments/assets/de259c34-81d8-4f97-b808-37b953370104" />
 
 
 pokemon_trade - swap out a trainer's partner pokemon for a different one using the UPDATE function.
