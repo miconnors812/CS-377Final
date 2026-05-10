@@ -11,7 +11,6 @@ The database consists of the following tables:
 - trainers
 - type_effectiveness
 - battling
-- bracket
 - champions
 - battle_actions
 
@@ -90,8 +89,7 @@ Relationships:
 - Each trainer has one partner Pokémon.
 - Battles occur between two trainers.
 - Battle actions are tied to a specific battle.
-- Brackets organize trainers into tournament rounds.
-- Champions are determined from bracket winners.
+- Champions are determined from battle winners.
 
 ---------------------------------------------------------------
 
