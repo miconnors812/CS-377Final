@@ -120,19 +120,29 @@ pokemon_trade - swap out a trainer's partner pokemon for a different one using t
 
 
 ### Views:
-partner_info - displays a trainer's name and the information regarding their specific partner pokemon.
-<img width="1067" height="135" alt="image" src="https://github.com/user-attachments/assets/6613e069-b66d-4378-9aac-ecf460f935fe" />
+partner_info - displays a trainer's name and the information regarding their specific partner pokemon and its stats.
+<img width="977" height="148" alt="image" src="https://github.com/user-attachments/assets/e6385f28-e71b-471b-a22d-e4a12bc02bfa" />
+
+actions - displays all battle actions that have happened in an easier to interpret manner as well as showing the pokemon’s names
+<img width="876" height="278" alt="image" src="https://github.com/user-attachments/assets/4e0112ec-8c59-4e64-84f5-d55227f718f2" />
+
+
 
 ### Other General Queries Not Already Mentioned:
 AVG, MAX, Order by DESC, and a Window function with rank and over: 
 <img width="481" height="235" alt="image" src="https://github.com/user-attachments/assets/defc6a88-f710-438a-8aff-0c105b195691" />
 
 
-CONCAT_WS:
-<img width="1310" height="92" alt="image" src="https://github.com/user-attachments/assets/6bc64270-8463-4a4a-9b2b-2ed196bb6589" />
+CONCAT, CONCAT_WS, COUNT, PARTITION BY, ROW_NUMBER, LAG:
+<img width="1318" height="323" alt="image" src="https://github.com/user-attachments/assets/6b65f706-573d-4587-9d4a-cfff0bf25693" />
+
 
 WHERE _ LIKE %%, POSITION:
 <img width="352" height="75" alt="image" src="https://github.com/user-attachments/assets/fff5a4f6-4e13-45c4-8060-8949b4381669" />
+
+SUBSTR, LENGTH, TRIM, HAVING, LIMIT:
+<img width="1152" height="277" alt="image" src="https://github.com/user-attachments/assets/01041702-9e3a-4ae2-b250-ff16bb503755" />
+
 
 
 
